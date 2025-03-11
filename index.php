@@ -15,7 +15,7 @@
 <section id="about">
     <div class="about-container">
         <div class="about-container-heading">
-            <h2>About Me</h2>
+            <h2>This is a change</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam, rem dignissimos iusto perferendis corrupti recusandae aut repellat asperiores velit, quia dolorem omnis corporis pariatur ratione earum autem commodi aspernatur.</p>
         </div>
         <div class="profile-container">
