@@ -1,0 +1,30 @@
+name: Deploy WordPress Theme
+
+on:
+  push:
+    branches:
+      - main  # Trigger deployment on push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy theme via SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.SFTP_HOST }}  # Your SFTP host (e.g., sftp.wp.com)
+          username: ${{ secrets.SFTP_USERNAME }}  # Your SFTP username
+          password: ${{ secrets.SFTP_PASSWORD }}  # Your SFTP password
+          port: ${{ secrets.SFTP_PORT }}  # Port (typically 22)
+          local-dir: "stovellc-theme/"  # Local directory where theme files are
+          server-dir: "/wp-content/themes/stovellc-theme/"  # Remote WordPress theme directory
+          timeout: 600  # Increase the timeout for large deployments
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules*
+            **/README.md
