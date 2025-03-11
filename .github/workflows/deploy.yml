@@ -22,6 +22,7 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           local-dir: "./"  # ✅ Matches your repo folder name
           server-dir: "/wp-content/themes/stove-theme/"  # ✅ Matches WordPress theme folder
+          timeout: 600
           exclude: |
             **/.git*
             **/.github*
