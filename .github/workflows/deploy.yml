@@ -1,0 +1,29 @@
+name: Deploy to WordPress Theme
+
+on:
+  push:
+    branches:
+      - main  # ✅ Runs when you push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy via SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: ${{ secrets.SFTP_PORT }}
+          local-dir: "stove-theme/"  # ✅ Matches your repo folder name
+          server-dir: "/wp-content/themes/stove-theme/"  # ✅ Matches WordPress theme folder
+          exclude: |
+            **/.git*
+            **/.github*
+            **/node_modules*
+            **/README.md
