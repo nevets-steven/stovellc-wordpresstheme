@@ -1,0 +1,247 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Default Styles */
+html, body{
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    background: var(--main-background);
+    scroll-behavior: smooth;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 0px,
+        rgba(255, 255, 255, 0.05) 3px,
+        rgba(0, 0, 0, 0.05) 6px
+    );
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+
+/* Root Styles */
+:root{
+    --main-background: radial-gradient(circle at top, #2c2c54, #5f4b8b, #3F51B5, #AABFD5);
+    --link-color: #64A6FF;
+    --link-hover-color: #00E6E6;
+    --text-color: #D1D5DB;
+    --headline-color: #B8E1FF;
+    --button-copy-color: #D6E4F0;
+    --basic-gray: #333;
+
+    --maxwidth-large: 1100px;
+    --maxwidth-medium: 900px;
+    --maxwidth-small: 600px;
+
+    --section-padding: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color: var(--link-color);
+    transition: color 0.5s ease-in-out;
+}
+a:hover{
+    color: var(--link-hover-color);
+}
+p{
+    color: var(--text-color);
+}
+h1, h2, h3, h4{
+    color: var(--headline-color);
+}
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::selection{
+    background: #4B7EBF;
+} 
+/* Header */
+#header{
+    border-bottom: 1px solid var(--basic-gray);
+    padding: var(--section-padding);
+    
+}
+#header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--maxwidth-large);
+    margin: 0 auto;
+    height: 100px;
+}
+#header .header-container img{
+    height: 100%;
+    border-radius: 8px;
+}
+#header .nav-flex{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Hero */
+#hero{
+    padding: var(--section-padding);
+    max-width: var(--maxwidth-large);
+    margin: 0 auto;
+}
+#hero .hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#hero .hero-container h1{
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+#hero .hero-container p{
+    font-size: 1.25rem;
+}
+#hero .hero-container img{
+    border-radius: 8px;
+}
+
+#hero .hero-cta, #services .portfolio-cta{
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: transparent;
+    border: 1px solid var(--basic-gray);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px var(--basic-gray);
+    border-radius: 8px;
+    transform: scale(1);
+    transition: box-shadow 0.15s ease-in-out, transform 0.1s ease-in-out;
+
+    color: var(--button-copy-color);
+}
+#hero .hero-cta:hover, #services .portfolio-cta:hover{
+    box-shadow: -2px -2px 5px var(--basic-gray);
+    transform: scale(1.1);
+}
+
+/* About */
+#about{
+    max-width: var(--maxwidth-large);
+    padding: var(--section-padding);
+
+}
+#about .about-container{
+    display: flex;
+    flex-direction: column;
+}
+#about .about-container .about-container-heading h2{
+    text-align: center;
+    margin: 0 0 0.5rem;
+}
+#about .about-container .about-container-heading p{
+    margin: 0 0 0.5rem;
+}
+#about .about-container .profile-container{
+    justify-items: center;
+}
+#about .about-container .profile-container img{
+    border-radius: 8px;
+}
+
+/* Services / Portfolio Button styled in Hero */
+#services .services-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#services .card{
+    max-width: var(--maxwidth-small);
+    border: 1px solid var(--basic-gray);
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    height: 250px;
+
+    box-shadow: 0 0 5px;
+    transform: scale(1);
+    transition: transform 0.1s ease-in-out;
+}
+#services .card:hover{
+    transform: scale(1.1);
+}
+
+#services .services-container .portfolio-cta{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* Testimonials */
+
+.testimonials {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #B8E1FF; /* Icy blue for modern contrast */
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background: rgba(255, 255, 255, 0.1); /* Soft frosted glass effect */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #D1D5DB; /* Cool gray for readability */
+    position: relative;
+}
+
+.testimonial p {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #AABFD5; /* Subtle contrast for names */
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+#footer p{
+    margin: 0 0 0.5rem;
+}
+/* Media Queries */
+
+@media screen and (max-width: 820px){
+    #header .header-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #hero .hero-container{
+        text-align: center;
+    }
+}
