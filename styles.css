@@ -58,6 +58,7 @@ body::before{
     --section-padding: 1rem;
     --random-variable: 500;
     --another-variable: 700;
+    --another-variable2: 600;
 
 }
 a{
