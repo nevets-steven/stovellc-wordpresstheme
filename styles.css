@@ -1,3 +1,14 @@
+/*
+Theme Name: Stove Theme
+Theme URI: https://yourwebsite.com
+Author: Your Name
+Description: A custom WordPress theme based on my HTML/CSS project.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stove-theme
+*/
+
 *, *::before, *::after{
     margin: 0;
     padding: 0;
