@@ -13,6 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Debug SFTP Connection  # 🔍 Debug Step
+        run: |
+          echo "🔍 Testing connection to SFTP server..."
+          nc -zv ${{ secrets.SFTP_HOST }} ${{ secrets.SFTP_PORT }}
+
       - name: Deploy via SFTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
