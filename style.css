@@ -262,7 +262,7 @@ h2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two equal columns */
         grid-template-rows: auto auto auto; /* Three rows */
-        gap: 20px; /* Space between grid items */
+        gap: 10px; /* Space between grid items */
         max-width: var(--maxwidth-medium); /* Adjust as needed */
         margin: var(--margin-auto); 
     }
@@ -270,7 +270,6 @@ h2 {
     #services .services-container .portfolio-cta{
         max-width: var(--maxwidth-xtrasmall);
         grid-column: span 2;
-        grid-column-start: unset;
         grid-column-end: unset;
     }
 }

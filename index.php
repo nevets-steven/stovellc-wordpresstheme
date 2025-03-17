@@ -63,7 +63,23 @@
 </section>
 
 <section id="contact">
-    <p>[Insert Contact Form Here]</p>
+    <div class="contact-form-container">
+        <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@gmail.com" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Enter Your Message</label>
+                <textarea type="text" placeholder="Type Here" id="message" rows='4' name="message" required>
+            </div>
+            <button type="submit" class='form-submit-cta' id='form-submit-cta'>Send to STOVE LLC</button>
+        </form>
+    </div>
 </section>
 
 <?php get_footer(); ?>
