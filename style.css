@@ -257,12 +257,12 @@ h2 {
         text-align: center;
     }
 
-    .services-container {
+    #services .services-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two equal columns */
         grid-template-rows: auto auto auto; /* Three rows */
         gap: 20px; /* Space between grid items */
-        max-width: 800px; /* Adjust as needed */
+        max-width: var(--maxwidth-medium); /* Adjust as needed */
         margin: var(--margin-auto); 
     }
 
