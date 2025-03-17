@@ -56,6 +56,10 @@
         <p>“Working with STOVE LLC was a game-changer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dignissimos.”</p>
         <span>- Jane Doe, CEO of TechCorp</span>
     </div>
+    <div class="testimonial">
+        <p>“Working with STOVE LLC was an excellent experience. Lorem ipsum dolor sit amet.”</p>
+        <span>- Jane Doe, CEO of Oscorp</span>
+    </div>
 </section>
 
 <section id="contact">

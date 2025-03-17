@@ -53,6 +53,7 @@ body::before{
     --maxwidth-large: 1100px;
     --maxwidth-medium: 900px;
     --maxwidth-small: 600px;
+    --maxwidth-xtrasmall: 400px;
 
     --section-padding: 1rem;
 
@@ -143,7 +144,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 }
 
 /* About */
-#about, #hero{
+#about{
     max-width: var(--maxwidth-large);
     padding: var(--section-padding);
     margin: var(--margin-auto);
@@ -266,7 +267,10 @@ h2 {
         margin: var(--margin-auto); 
     }
 
-    .portfolio-cta{
+    #services .services-container .portfolio-cta{
+        max-width: var(--maxwidth-xtrasmall);
         grid-column: span 2;
+        grid-column-start: unset;
+        grid-column-end: unset;
     }
 }
