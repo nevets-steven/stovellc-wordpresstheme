@@ -237,6 +237,73 @@ h2 {
     color: #AABFD5; /* Subtle contrast for names */
 }
 
+
+/* Contact Form */
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); /* Subtle glass effect */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label Styling */
+label {
+    font-size: 1rem;
+    color: #AABFD5; /* Cool muted blue */
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input & Textarea Styling */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #D1D5DB; /* Soft gray for readability */
+    outline: none;
+    transition: border 0.3s ease, background 0.3s ease;
+}
+
+/* Input Focus Effect */
+input:focus, textarea:focus {
+    border: 1px solid #64A6FF; /* Electric blue focus */
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Submit Button */
+.form-submit-cta {
+    background: linear-gradient(135deg, #3F51B5, #64A6FF); /* Cool blue gradient */
+    color: #D6E4F0; /* Muted ice-blue for balance */
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.form-submit-cta:hover {
+    background: linear-gradient(135deg, #5f4b8b, #3F51B5);
+    transform: scale(1.05);
+}
+
 /* Footer */
 #footer{
     text-align: center;
