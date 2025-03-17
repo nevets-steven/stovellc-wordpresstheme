@@ -143,10 +143,10 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 }
 
 /* About */
-#about{
+#about, #hero{
     max-width: var(--maxwidth-large);
     padding: var(--section-padding);
-
+    margin: var(--margin-auto);
 }
 #about .about-container{
     display: flex;
@@ -255,5 +255,18 @@ h2 {
 
     #hero .hero-container{
         text-align: center;
+    }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        grid-template-rows: auto auto auto; /* Three rows */
+        gap: 20px; /* Space between grid items */
+        max-width: 800px; /* Adjust as needed */
+        margin: var(--margin-auto); 
+    }
+
+    .portfolio-cta{
+        grid-column: span 2;
     }
 }
