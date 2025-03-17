@@ -75,7 +75,7 @@
             </div>
             <div>
                 <label for="message">Enter Your Message</label>
-                <textarea type="text" placeholder="Type Here" id="message" rows='4' name="message" required>
+                <textarea type="text" placeholder="Type Here" id="message" rows='4' name="message" required<?php echo htmlspecialchars($message ?? '', ENT_QUOTES, 'UTF-8'); ?>></textarea>
             </div>
             <button type="submit" class='form-submit-cta' id='form-submit-cta'>Send to STOVE LLC</button>
         </form>
