@@ -79,7 +79,6 @@
             </div>
             <button type="submit" class='form-submit-cta' id='form-submit-cta'>Send to STOVE LLC</button>
         </form>
-        <!-- add recaptcha here -->
     </div>
 </section>
 
