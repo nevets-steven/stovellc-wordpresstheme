@@ -340,3 +340,18 @@ input:focus, textarea:focus {
         grid-column-end: unset;
     }
 }
+
+@media screen and (max-width: 520px){
+    #services .services-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    #services .card{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
