@@ -260,7 +260,7 @@ form {
 /* Label Styling */
 label {
     font-size: 1rem;
-    color: #AABFD5; /* Cool muted blue */
+    color: #314154; 
     font-weight: 500;
     display: block;
     margin-bottom: 5px;
@@ -274,9 +274,12 @@ input, textarea {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.08);
-    color: #D1D5DB; /* Soft gray for readability */
+    color: #314154; /* navy blue for readability */
     outline: none;
     transition: border 0.3s ease, background 0.3s ease;
+}
+input::placeholder, textarea::placeholder{
+    color: #314154;
 }
 
 /* Input Focus Effect */
@@ -352,6 +355,11 @@ input:focus, textarea:focus {
     #services .card{
         max-width: 100%;
         height: auto;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
