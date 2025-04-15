@@ -16,11 +16,15 @@
     <div class="about-container">
         <div class="about-container-heading">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam, rem dignissimos iusto perferendis corrupti recusandae aut repellat asperiores velit, quia dolorem omnis corporis pariatur ratione earum autem commodi aspernatur.</p>
+            <p>Where do I begin? My journey in tech started at Michigan State, where I explored Computer Science before earning my degree in Media and Information.
+
+Today, I work at Rocket as a Product Manager, giving me a front-row seat to the full product lifecycle — from early ideas to launch. That experience sharpened my understanding of how good design, clean code, and smart strategy come together.
+
+Outside of work, I've put in the hours as a self-taught web developer. Through online certifications and hands-on projects, I've built a skillset grounded in real-world problem solving. Whether I'm designing a responsive layout or troubleshooting a tricky bug, I approach every build with a product-first mindset and a passion for getting it right.</p>
         </div>
         <div class="profile-container">
             <img src="https://picsum.photos/400" alt="Profile Pic">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur unde illum fuga a, quibusdam impedit magnam debitis. Consequatur, in?</p>
+            <p>My goal is to earn your trust and deliver real value through my freelance services — with clear communication, clean code, and solutions that actually work.</p>
         </div>
     </div>
 </section>
