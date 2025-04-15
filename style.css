@@ -160,6 +160,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 #about .about-container .about-container-heading p{
     font-size: 1.25rem;
     margin: 0 0 0.5rem;
+    text-wrap: pretty;
 }
 #about .about-container .profile-container{
     justify-items: center;
