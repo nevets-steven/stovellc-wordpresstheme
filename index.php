@@ -5,7 +5,7 @@
         <h1>Welcome to my website for STOVE LLC</h1>
         <!-- Welcome gif insert here -->
         <img src="https://picsum.photos/300" alt="Welcoming Gif">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque eligendi magni, hic sunt quisquam omnis iste animi tempora corporis.</p>
+        <p>I design and build websites with clean code, thoughtful design, and a focus on usability. Whether you're here to explore my work, learn more about my background, or start a project — you're in the right place.</p>
     </div>
     <button class="hero-cta" id="hero-cta">
         Click Me
@@ -40,19 +40,22 @@
     <div class="services-container">
         <div class="card web-dev">
             <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, possimus?</p>
+            <p>From wireframes to launch, I build sites that are responsive, accessible, 
+                and easy to maintain. Every line of code supports a clear user experience and a clean design.</p>
         </div>
         <div class="card css-updates">
             <h3>CSS Updates</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, similique.</p>
+            <p>Sometimes the small details make the biggest impact. 
+                I fine-tune styles to align with brand standards, improve readability, and enhance overall usability.</p>
         </div>
         <div class="card javascript">
             <h3>JavaScript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, reprehenderit.</p>
+            <p>Whether it's interactive elements or behind-the-scenes logic, 
+                I use JavaScript to bring websites to life. My focus is on writing efficient, reliable code that supports user goals.</p>
         </div>
         <div class="card consultation">
             <h3>Consultation</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, rem?</p>
+            <p>Not sure where to start? I offer hands-on guidance to help businesses think through design, development, and strategy — always with an eye on what's practical and what's next.</p>
         </div>
         <!-- Add Portfolio link -->
         <a class="portfolio-cta" id="portfolio-cta" href="<?php echo site_url('/portfolio'); ?>">
@@ -69,10 +72,10 @@
             He is a great collaborator and is flexible in implementing front-end solutions to last-minute design changes.”</p>
         <span>- Oswaldo M, Terakeet</span>
     </div>
-    <div class="testimonial">
+    <!-- <div class="testimonial">
         <p>“Working with STOVE LLC was an excellent experience. Lorem ipsum dolor sit amet.”</p>
         <span>- Jane Doe, CEO of Oscorp</span>
-    </div>
+    </div> -->
 </section>
 
 <section id="contact">

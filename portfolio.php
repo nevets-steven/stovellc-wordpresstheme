@@ -18,7 +18,13 @@ get_header();
 </section>
 
 <section id="portfolio">
-    <p>[Insert Portfolio Items Here]</p>
+    <h2>Check this out!</h2>
+    <p>This is the place where I want to showcase all that I can do, ranging from animations to cool CSS designs.</p>
+
+    <div class="porfolio-item item-1"></div>
+    <div class="porfolio-item item-2"></div>
+    <div class="porfolio-item item-3"></div>
+    <div class="porfolio-item item-4"></div>
 </section>
 
 <?php get_footer(); ?>
