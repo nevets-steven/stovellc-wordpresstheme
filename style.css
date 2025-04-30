@@ -166,7 +166,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
     justify-items: center;
 }
 #about .about-container .profile-container img{
-    border-radius: 8px;
+    border-radius: 50%;
 }
 
 /* Services / Portfolio Button styled in Hero */
