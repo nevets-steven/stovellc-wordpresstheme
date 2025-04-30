@@ -64,8 +64,10 @@
 <section class="testimonials">
     <h2>What Our Clients Say</h2>
     <div class="testimonial">
-        <p>“Working with STOVE LLC was a game-changer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dignissimos.”</p>
-        <span>- Jane Doe, CEO of TechCorp</span>
+        <p>“Steven and I worked together on running many successful A/B tests on a national fintech website. 
+            Steven helped implement the different experiences and troubleshoot issues that were caused by the base code of the website. 
+            He is a great collaborator and is flexible in implementing front-end solutions to last-minute design changes.”</p>
+        <span>- Oswaldo M, Terakeet</span>
     </div>
     <div class="testimonial">
         <p>“Working with STOVE LLC was an excellent experience. Lorem ipsum dolor sit amet.”</p>

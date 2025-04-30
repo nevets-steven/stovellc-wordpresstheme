@@ -225,6 +225,7 @@ h2 {
     font-size: 1.2rem;
     color: #D1D5DB; /* Cool gray for readability */
     position: relative;
+    margin: 0 0 20px;
 }
 
 .testimonial p {
