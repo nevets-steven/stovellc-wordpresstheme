@@ -4,7 +4,7 @@
     <div class="hero-container">
         <h1>Welcome to my website for STOVE LLC</h1>
         <!-- Welcome gif insert here -->
-        <img src="./assets/images/stovellc-welcome.png" alt="Welcoming Image">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/stovellc-welcome.png" alt="Welcoming Image">
         
         <p>I design and build websites with clean code, thoughtful design, and a focus on usability. Whether you're here to explore my work, learn more about my background, or start a project — you're in the right place.</p>
     </div>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="profile-container">
-            <img src="./assets/images/headshot-updated.jpg" alt="Profile Pic" class='profilpic'>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/headshot-updated.jpg" alt="Profile Pic" class='profilpic'>
             <p>My goal is to earn your trust and deliver real value through my 
                 freelance services — with clear communication, clean code, and solutions that actually work.</p>
         </div>
