@@ -5,6 +5,7 @@
         <h1>Welcome to my website for STOVE LLC</h1>
         <!-- Welcome gif insert here -->
         <img src="https://picsum.photos/300" alt="Welcoming Gif">
+        <div class="tenor-gif-embed" data-postid="3943215169821872664" data-share-method="host" data-aspect-ratio="1.76596" data-width="100%"><a href="https://tenor.com/view/welcome-welcome-images-welcome-images-black-gif-3943215169821872664">Welcome Welcome Images GIF</a>from <a href="https://tenor.com/search/welcome-gifs">Welcome GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         <p>I design and build websites with clean code, thoughtful design, and a focus on usability. Whether you're here to explore my work, learn more about my background, or start a project — you're in the right place.</p>
     </div>
     <button class="hero-cta" id="hero-cta">
