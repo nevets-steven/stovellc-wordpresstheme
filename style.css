@@ -121,7 +121,9 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
     font-size: 1.25rem;
 }
 #hero .hero-container img{
-    border-radius: 8px;
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 #hero .hero-cta, #services .portfolio-cta{
