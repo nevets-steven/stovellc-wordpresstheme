@@ -326,7 +326,7 @@ input:focus, textarea:focus {
 
 /* PORTFOLIO.PHP STYLES */
 
-.threed-cub-container{
+.threed-cube-container{
     perspective: 1000px;
     width: 200px;
     height: 200px;;
