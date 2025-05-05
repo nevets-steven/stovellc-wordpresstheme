@@ -23,7 +23,11 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="porfolio-item item-2"></div>
+    <div class="porfolio-item item-2">
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+    </div>
     <div class="porfolio-item item-3"></div>
     <div class="porfolio-item item-4"></div>
 </section>
