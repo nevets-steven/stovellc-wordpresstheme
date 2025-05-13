@@ -326,7 +326,15 @@ input:focus, textarea:focus {
 
 
 /* PORTFOLIO.PHP STYLES */
-
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-item{
+    margin: 150px auto;
+}
 /* item 1 */
 .threed-cube-container{
     perspective: 1000px;
