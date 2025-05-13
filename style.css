@@ -326,13 +326,13 @@ input:focus, textarea:focus {
 
 
 /* PORTFOLIO.PHP STYLES */
-.portfolio-container{
+#portfolio{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.portfolio-item{
+.porfolio-item{
     margin: 150px auto;
 }
 /* item 1 */
