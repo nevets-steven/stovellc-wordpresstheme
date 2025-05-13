@@ -120,7 +120,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 #hero .hero-container p{
     font-size: 1.25rem;
 }
-#hero .hero-container img{
+#hero .hero-container img, #about .about-container .profile-container img{
     max-width: 50%;
     margin: 0 auto;
     border-radius: 50%;
