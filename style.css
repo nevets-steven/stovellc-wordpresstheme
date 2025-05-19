@@ -406,7 +406,7 @@ input:focus, textarea:focus {
     width: 80px;
     height: 80px;
     position: relative;
-    animation: spin 2 linear infinite;
+    animation: spin 2s linear infinite;
 }
 .loader::before, .loader::after{
     content: '';
