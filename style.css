@@ -331,6 +331,10 @@ input:focus, textarea:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: var(--section-padding);
+    max-width: var(--maxwidth-large);
+    margin: var(--margin-auto);
 }
 .porfolio-item{
     margin: 150px auto;
