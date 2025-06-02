@@ -45,4 +45,4 @@ document.querySelector('DOMContentLoaded', function() {
             popup.classList.add('hidden');
         }
     })
-})
+});
