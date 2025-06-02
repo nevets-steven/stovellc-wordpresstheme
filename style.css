@@ -146,6 +146,37 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
     transform: scale(1.1);
 }
 
+/* Hero Popup */
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.popup{
+    max-width: var(--maxwidth-xtrasmall);
+    z-index: 1;
+    position: fixed;
+    box-shadow: 2px 2px 5px var(--basic-gray);
+    border-radius: 8px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at top, #2c2c54, #5f4b8b, #3F51B5, #AABFD5);
+}
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.5rem;
+}
+.popup-content{
+    font-size: 0.75rem;
+    margin: var(--margin-auto);
+}
+
 /* About */
 #about{
     max-width: var(--maxwidth-large);
