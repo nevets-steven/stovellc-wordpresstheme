@@ -25,6 +25,7 @@ document.querySelector('DOMContentLoaded', function() {
     const popup = document.getElementById('popup');
     const close = document.getElementById('close-popup');
 
+    console.log('Script Loaded');
     //if button click, show popup with respective classes
     button.addEventListener('click', function() {
         popup.classList.remove('hidden');
