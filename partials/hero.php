@@ -22,4 +22,9 @@
     <button class="hero-cta" id="hero-cta">
         Click Me
     </button>
+    <div id='popup' class='popup hidden'>
+    <span id="close-popup" class="close">&times;</span>
+        <p class="popup-content">Hey! You clicked my button! Feel free to take a look around the site, 
+            if you have any questions fill out the contact box to get in touch!</p>
+    </div>
 </section>
