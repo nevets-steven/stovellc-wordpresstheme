@@ -20,30 +20,28 @@ document.querySelector('#footer a').addEventListener('click', function(){
 // }
 // Event Listener for Click me
 
-document.querySelector('DOMContentLoaded', function() {
-    const button = document.getElementById('hero-cta');
-    const popup = document.getElementById('popup');
-    const close = document.getElementById('close-popup');
+const button = document.getElementById('hero-cta');
+const popup = document.getElementById('popup');
+const close = document.getElementById('close-popup');
 
-    console.log('Script Loaded');
-    //if button click, show popup with respective classes
-    button.addEventListener('click', function() {
-        popup.classList.remove('hidden');
-        popup.classList.add('visible');
-    });
+console.log('Script Loaded');
+//if button click, show popup with respective classes
+button.addEventListener('click', function() {
+    popup.classList.remove('hidden');
+    popup.classList.add('visible');
+});
 
-    //closing popup
-    close.addEventListener('click', function() {
+//closing popup
+close.addEventListener('click', function() {
+    popup.classList.remove('visible');
+    popup.classList.add('hidden');
+});
+
+//outside box click
+
+window.addEventListener('click', function(e){
+    if (e.target === popup){
         popup.classList.remove('visible');
         popup.classList.add('hidden');
-    });
-
-    //outside box click
-
-    window.addEventListener('click', function(e){
-        if (e.target === popup){
-            popup.classList.remove('visible');
-            popup.classList.add('hidden');
-        }
-    })
+    }
 });
