@@ -163,7 +163,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle at top, #2c2c54, #5f4b8b, #3F51B5, #AABFD5);
+    background: #5f4b8b;
 }
 .close {
     cursor: pointer;
