@@ -45,3 +45,25 @@ window.addEventListener('click', function(e){
         popup.classList.add('hidden');
     }
 });
+
+
+function handleContactFormSubmission(form) {
+    const formData = new FormData(form);
+  
+    fetch("https://script.google.com/macros/s/AKfycbyLHSgjSBXKqeD1mKTQ9KKkUgntH7sRYpz3OdVhunvYm7JHkRlzO27O-kd2gyoBbsf1/exec", {
+      method: "POST",
+      body: formData
+    })
+      .then(response => response.text())
+      .then(data => {
+        alert("Message sent successfully!");
+        form.reset();
+      })
+      .catch(error => {
+        alert("There was an error sending your message. Please try again.");
+        console.error("Submission error:", error);
+      });
+  
+    return false; // Prevent default form submission
+  }
+  
