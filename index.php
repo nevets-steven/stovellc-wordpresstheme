@@ -70,7 +70,7 @@
 
 <section id="contact">
     <div class="contact-form-container">
-        <form action="" id="contact-form" onsubmit="return handleContactFormSubmission(this);" >
+        <form id="contact-form" onsubmit="return handleContactFormSubmission(this);" >
             <div>
                 <label for="name">Name</label>
                 <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
