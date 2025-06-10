@@ -25,6 +25,6 @@
     <div id='popup' class='popup hidden'>
     <span id="close-popup" class="close">&times;</span>
         <p class="popup-content">Hey! You clicked my button! Feel free to take a look around the site, 
-            if you have any questions fill out the contact box to get in touch!</p>
+            if you have any questions fill out the <a href="<?php echo site_url('/#contact'); ?>">contact box</a> to get in touch!</p>
     </div>
 </section>
