@@ -34,6 +34,7 @@
                 <a href="<?php echo site_url('/#services'); ?>">Services</a>
                 <a href="<?php echo site_url('/portfolio'); ?>">Portfolio</a>
                 <a href="<?php echo site_url('/#contact'); ?>">Contact</a>
+                <a href="https://nevets-steven.github.io/simon-says-capstone/" target="_blank" rel="noopener noreferrer">Simon Says</a>
             </div>
         </nav>
     </div>
