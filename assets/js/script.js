@@ -67,6 +67,4 @@ function handleContactFormSubmission(form) {
     return false; // Prevent default form submission
   }
 
-
-  //mobile hamburger menu
   

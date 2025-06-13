@@ -97,6 +97,7 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 }
 #header .nav-flex{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -155,9 +156,6 @@ p::selection, h1::selection, h2::selection, h3::selection, h4::selection, a::sel
 }
 .visible{
     display: block;
-}
-.visible-flex{
-    display: flex;
 }
 .popup{
     max-width: var(--maxwidth-xtrasmall);
