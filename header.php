@@ -25,13 +25,9 @@
     <div class="header-container">
         <!-- Logo -->
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/stovellc-logo-v5.png" alt="Stove LLC Logo" class="logo">
-
-        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars"></i>
-        </button>
         <!-- Navigation Menu -->
         <nav>
-            <div class="jump-links nav-flex visible-flex">
+            <div class="jump-links nav-flex">
                 <a href="<?php echo home_url(); ?>">Home</a>
                 <a href="<?php echo site_url('/#about'); ?>">About</a>
                 <a href="<?php echo site_url('/#services'); ?>">Services</a>

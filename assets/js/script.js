@@ -69,15 +69,4 @@ function handleContactFormSubmission(form) {
 
 
   //mobile hamburger menu
-  function initMobileMenu() {
-    const hamburger = document.getElementById("hamburger");
-    const nav = document.getElementById("nav-links");
-  
-    if (hamburger && nav) {
-      hamburger.addEventListener("click", function () {
-        nav.classList.toggle("visible-flex");
-        nav.classList.toggle("hidden");
-      });
-    }
-  }
   
