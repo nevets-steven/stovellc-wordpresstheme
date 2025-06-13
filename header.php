@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?php wp_head(); ?>
 </head>
 <body>
@@ -26,6 +26,9 @@
         <!-- Logo -->
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/stovellc-logo-v5.png" alt="Stove LLC Logo" class="logo">
 
+        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
         <!-- Navigation Menu -->
         <nav>
             <div class="jump-links nav-flex">

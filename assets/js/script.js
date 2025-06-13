@@ -66,4 +66,17 @@ function handleContactFormSubmission(form) {
   
     return false; // Prevent default form submission
   }
+
+
+  //mobile hamburger menu
+  function initMobileMenu() {
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("nav-links");
+  
+    if (hamburger && nav) {
+      hamburger.addEventListener("click", function () {
+        nav.classList.toggle("active");
+      });
+    }
+  }
   

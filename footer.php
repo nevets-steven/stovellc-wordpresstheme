@@ -6,6 +6,9 @@
 
 <!-- Link to JavaScript file -->
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
+<script>initMobileMenu();</script>
+<!-- Word Scramble -->
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/scramble.js"></script>
 
 <?php wp_footer(); ?>
 </body>
