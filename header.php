@@ -31,7 +31,7 @@
         </button>
         <!-- Navigation Menu -->
         <nav>
-            <div class="jump-links nav-flex">
+            <div class="jump-links nav-flex visible-flex">
                 <a href="<?php echo home_url(); ?>">Home</a>
                 <a href="<?php echo site_url('/#about'); ?>">About</a>
                 <a href="<?php echo site_url('/#services'); ?>">Services</a>

@@ -75,7 +75,8 @@ function handleContactFormSubmission(form) {
   
     if (hamburger && nav) {
       hamburger.addEventListener("click", function () {
-        nav.classList.toggle("active");
+        nav.classList.toggle("visible-flex");
+        nav.classList.toggle("hidden");
       });
     }
   }
