@@ -46,3 +46,9 @@ function checkGuess() {
 }
 
 document.addEventListener('DOMContentLoaded', newGame());
+
+const guessBtn = document.getElementById('check-guess');
+
+if(guessBtn){
+    guessBtn.addEventListener('click', checkGuess);
+}
