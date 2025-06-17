@@ -21,3 +21,28 @@ function shuffleWord(word){
     }
     return arr.join("");
 }
+
+function newGame() {
+    const random = words[Math.floor(Math.random() * words.length)];
+    currentWord = random.word;
+    shuffled = shuffleWord(currentWord);
+
+    document.getElementById('scrambled-word').textContent = shuffled;
+    document.getElementById('hint').textContent = `Hint: ${random.hint}`;
+    document.getElementById('feedback').textContent = "";
+    document.getElementById.('user-input').value = "";
+}
+
+function checkGuess() {
+    const input = document.getElementById("user-input").value.toLowerCase();
+    const feedback = document.getElementById("feedback");
+
+    if (input === currentWord){
+        feedback.textContent = 'Correct!';
+    }
+    else{
+        feedback.textContent = 'Try Again.'
+    }
+}
+
+document.addEventListener('DOMContentLoaded', newGame);
