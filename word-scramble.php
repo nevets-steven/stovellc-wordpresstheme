@@ -12,9 +12,12 @@ get_header();
         <span id="scrambled-word"></span>
     </div>
     <input type="text" id='user-input' placeholder='Your Guess'>
-    <button id='check-guess' class='cta-button'>Submit</button>
     <p id="feedback"></p>
-    <button class="cta-button new-game">New Word</button>
+    <div class="btn-container">
+        <button id='check-guess' class='cta-button'>Submit</button>
+        <button class="cta-button new-game">New Word</button>
+    </div>
+
 </section>
 
 

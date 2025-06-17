@@ -491,6 +491,7 @@ input:focus, textarea:focus {
 }
 
 .cta-button{
+    width: 150px;
     display: block;
     margin: 2rem auto;
     padding: 1rem 2rem;
@@ -502,6 +503,10 @@ input:focus, textarea:focus {
     transform: scale(1);
     transition: box-shadow 0.15s ease-in-out, transform 0.1s ease-in-out;
     color: var(--button-copy-color);
+}
+.btn-container{
+    display: flex;
+    gap: 2rem;
 }
 
 .cta-button:hover{
@@ -561,6 +566,11 @@ input:focus, textarea:focus {
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+
+    /* scramble */
+    .word-scramble{
+        max-width: 75vw;
     }
 
 }
