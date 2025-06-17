@@ -30,7 +30,7 @@ function newGame() {
     document.getElementById('scrambled-word').textContent = shuffled;
     document.getElementById('hint').textContent = `Hint: ${random.hint}`;
     document.getElementById('feedback').textContent = "";
-    document.getElementById.('user-input').value = "";
+    document.getElementById('user-input').value = "";
 }
 
 function checkGuess() {
@@ -41,7 +41,7 @@ function checkGuess() {
         feedback.textContent = 'Correct!';
     }
     else{
-        feedback.textContent = 'Try Again.'
+        feedback.textContent = 'Try Again.';
     }
 }
 

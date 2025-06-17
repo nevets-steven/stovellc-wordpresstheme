@@ -34,8 +34,8 @@
                 <a href="<?php echo site_url('/portfolio'); ?>">Portfolio</a>
                 <a href="<?php echo site_url('/#contact'); ?>">Contact</a>
                 <a href="https://nevets-steven.github.io/simon-says-capstone/" target="_blank" rel="noopener noreferrer">Simon Says</a>
-                <a href="<?php echo site_url('/scramble'); ?>">Contact</a>
+                <a href="<?php echo site_url('/word-scramble'); ?>">Contact</a>
             </div>
-        </nav>
+        </nav>3
     </div>
 </header>
