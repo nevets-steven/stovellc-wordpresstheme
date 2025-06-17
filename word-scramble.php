@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<section id='word-scramble'>
+<section id='word-scramble' class='word-scramble'>
     <h1>Word Scramble Game</h1>
     <p id="hint"></p>
     <div class='scrambled-container'>
