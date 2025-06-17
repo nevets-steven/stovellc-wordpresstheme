@@ -45,4 +45,4 @@ function checkGuess() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', newGame);
+document.addEventListener('DOMContentLoaded', newGame());
