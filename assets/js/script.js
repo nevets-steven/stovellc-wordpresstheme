@@ -26,16 +26,22 @@ const close = document.getElementById('close-popup');
 
 console.log('Script Loaded');
 //if button click, show popup with respective classes
-button.addEventListener('click', function() {
+if (button){
+  button.addEventListener('click', function() {
     popup.classList.remove('hidden');
     popup.classList.add('visible');
 });
+}
+
 
 //closing popup
-close.addEventListener('click', function() {
+if (close){
+  close.addEventListener('click', function() {
     popup.classList.remove('visible');
     popup.classList.add('hidden');
 });
+}
+
 
 //outside box click
 
