@@ -9,7 +9,7 @@ get_header();
     <p id="hint"></p>
     <div class='scrambled-container'>
         <strong>Scrambled: </strong>
-        <span class="scrambled-word"></span>
+        <span id="scrambled-word"></span>
     </div>
     <input type="text" id='user-input' placeholder='Your Guess'>
     <button class='cta-button'>Submit</button>
